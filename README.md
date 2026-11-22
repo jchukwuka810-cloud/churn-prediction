@@ -33,3 +33,22 @@ staying. Fiber optic internet and electronic check payment point to leaving.
 
 **Note:** The percentage shown in the app is a churn risk score, not the exact
 chance that a customer will leave, because the model was balanced.
+
+## Live App
+
+https://josh-churn-prediction.streamlit.app/
+
+## How to run locally
+
+1. Clone the repository and open the folder.
+2. Create and activate a virtual environment.
+3. Install the requirements: `pip install -r requirements.txt`
+4. Start the app: `streamlit run streamlit_app.py`
+
+## Files
+
+- `churn.ipynb`: data exploration, cleaning, training and evaluation
+- `streamlit_app.py`: the web app
+- `churn_model.joblib`, `scaler.joblib`, `columns.joblib`: the saved model, scaler and column list
+- `telco_churn.csv`: the dataset
+- `requirements.txt`: libraries needed to run the app
